@@ -3,6 +3,7 @@
 import React, { Component } from 'react'
 
 export default class DelayedButton extends Component {
+  
   callback = (e) => {
     e.persist();
     window.setTimeout(() => {
